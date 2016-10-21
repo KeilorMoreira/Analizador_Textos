@@ -16,7 +16,7 @@ namespace AnalizadorDeTextos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CargaCPU());
+            Application.Run(new Principal());
         }
     }
 }
