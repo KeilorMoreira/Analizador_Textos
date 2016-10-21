@@ -12,11 +12,11 @@ using System.Diagnostics;
 
 namespace AnalizadorDeTextos
 {
-    public partial class Form1 : Form
+    public partial class CargaCPU : Form
     {
         // Globales
         int x = 0;
-        public Form1()
+        public CargaCPU()
         {
             InitializeComponent();
             cargaCPU();
