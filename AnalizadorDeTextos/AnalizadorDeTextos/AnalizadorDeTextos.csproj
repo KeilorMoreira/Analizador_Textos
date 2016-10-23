@@ -53,6 +53,19 @@
     <Compile Include="CargaCPU.Designer.cs">
       <DependentUpon>CargaCPU.cs</DependentUpon>
     </Compile>
+    <Compile Include="CompradorRangoFechas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompradorRangoFechas.Designer.cs">
+      <DependentUpon>CompradorRangoFechas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secuencial.cs" />
+    <Compile Include="Loader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loader.Designer.cs">
+      <DependentUpon>Loader.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +76,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CargaCPU.resx">
       <DependentUpon>CargaCPU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompradorRangoFechas.resx">
+      <DependentUpon>CompradorRangoFechas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loader.resx">
+      <DependentUpon>Loader.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>

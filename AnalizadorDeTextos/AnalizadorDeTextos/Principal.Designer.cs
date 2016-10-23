@@ -29,21 +29,30 @@
         private void InitializeComponent()
         {
             this.menuStrip = new System.Windows.Forms.MenuStrip();
+            this.CargarTXT = new System.Windows.Forms.ToolStripMenuItem();
             this.usoCPU = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.masCompradorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip
             // 
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
-            this.usoCPU});
+            this.CargarTXT,
+            this.usoCPU,
+            this.masCompradorToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(632, 24);
+            this.menuStrip.Size = new System.Drawing.Size(968, 24);
             this.menuStrip.TabIndex = 1;
             this.menuStrip.Text = "menuStrip2";
+            // 
+            // CargarTXT
+            // 
+            this.CargarTXT.Name = "CargarTXT";
+            this.CargarTXT.Size = new System.Drawing.Size(75, 20);
+            this.CargarTXT.Text = "LoadDatos";
+            this.CargarTXT.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // usoCPU
             // 
@@ -52,15 +61,16 @@
             this.usoCPU.Text = "usoCPU";
             this.usoCPU.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
-            // toolStripMenuItem2
+            // masCompradorToolStripMenuItem
             // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(125, 20);
-            this.toolStripMenuItem2.Text = "toolStripMenuItem2";
+            this.masCompradorToolStripMenuItem.Name = "masCompradorToolStripMenuItem";
+            this.masCompradorToolStripMenuItem.Size = new System.Drawing.Size(102, 20);
+            this.masCompradorToolStripMenuItem.Text = "MasComprador";
+            this.masCompradorToolStripMenuItem.Click += new System.EventHandler(this.masCompradorToolStripMenuItem_Click);
             // 
             // Principal
             // 
-            this.ClientSize = new System.Drawing.Size(632, 324);
+            this.ClientSize = new System.Drawing.Size(968, 180);
             this.Controls.Add(this.menuStrip);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
@@ -84,6 +94,7 @@
         private System.Windows.Forms.CheckBox cbCPU;
         private System.Windows.Forms.MenuStrip menuStrip;
         private System.Windows.Forms.ToolStripMenuItem usoCPU;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem CargarTXT;
+        private System.Windows.Forms.ToolStripMenuItem masCompradorToolStripMenuItem;
     }
 }

@@ -30,5 +30,23 @@ namespace AnalizadorDeTextos
             // Display the new form.
             newMDIChild.Show();
         }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Loader newMDIChild = new Loader();
+            // Set the Parent Form of the Child window.
+            newMDIChild.MdiParent = this;
+            // Display the new form.
+            newMDIChild.Show();
+        }
+
+        private void masCompradorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CompradorRangoFechas newMDIChild = new CompradorRangoFechas();
+            // Set the Parent Form of the Child window.
+            newMDIChild.MdiParent = this;
+            // Display the new form.
+            newMDIChild.Show();
+        }
     }
 }
