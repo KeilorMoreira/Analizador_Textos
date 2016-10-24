@@ -1,0 +1,3 @@
+A0001,Keilor,1000000,tecnologia
+B0001,Alberto,2000000,muebles
+A0002,Alejandro,500000,accesorios

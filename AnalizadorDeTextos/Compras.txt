@@ -1,0 +1,5 @@
+00001,206710961,Computadora,tecnologia,2,90000000,30/8/2016
+00002,202220222,Juego Sala,muebles,1,550000,9/10/2016
+00003,206710961,Disco Duro,tecnologia,1,80000,19/1/2016
+00004,303330333,Soporte metalico cuadros,accesorios,20,5000,9/5/2016
+00005,202220222,Set muebles de lujo en marmol,muebles,4,5000000,8/6/2016

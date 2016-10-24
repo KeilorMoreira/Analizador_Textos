@@ -1,0 +1,5 @@
+101110111,Alfredo,Mora,Castro,Fortuna,70567643,A0001
+206710961,Keilor,Moreira,Alvarado,Cedral,86080637,A0002
+202220222,Alberto,Castro,Mora,Curridabat,22222222,B0001
+303330333,Alejandro,Rodriguez,Zamora,Alajuelita,33333333,A0003
+
